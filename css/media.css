@@ -1,0 +1,237 @@
+@media (max-width: 768px) {
+
+    .header__links {
+        justify-content: flex-end;
+    }
+
+    .header__links a.header__phone {
+        display: none;
+    }
+
+    .header__map p {
+        font-size: 12px;
+    }
+
+    .header__bottom {
+        padding-top: 39px;
+        padding-bottom: 39px;
+        padding-left: 66px;
+
+        background-position-x: 270px;
+        background-size: 70%;
+    }
+
+    .nav__list {
+        display: none;
+    }
+
+    .header__title {
+        margin-top: 61px;
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    .btn {
+        font-size: 15px;
+        line-height: 18px;
+    }
+
+    .header__img {
+        transform: translate(0, -25px);
+    }
+
+    .header__img img {
+        max-width: unset;
+        width: 368px;
+        height: 473px;
+    }
+
+    .about {
+        padding-top: 50px;
+        background-size: 45%;
+    }
+
+    .about__title {
+        margin-bottom: 48px;
+    }
+
+    .about__heading {
+        font-size: 40px;
+        line-height: 47px;
+    }
+
+    .about__cards {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 61px;
+    }
+
+    .card {
+       min-width: 594px;
+    }
+
+    .review__cards {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 109px;
+    }
+
+    .opacity {
+        opacity: 1;
+    }
+
+    .review__card {
+        width: 536px;
+    }
+
+    .footer {
+        background-image: url('./../img/footer/tablfooter-bg.png');
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .footer__row {
+        column-gap: 18px;
+        margin-top: 95px;
+        padding-bottom: 41px;
+    }
+}
+
+@media (max-width: 375px) {
+
+    .header__top {
+        margin-bottom: 26px;
+    }
+
+    .header__links {
+        flex-direction: column;
+    }
+
+    .header__links a.header__phone {
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;        
+
+        font-size: 14px;
+        line-height: 10px;
+    }    
+
+    .header__phone img {
+        display: none;
+    }
+
+    .header__links a.header__map {
+        display: none;
+    }
+
+    .header__links a.header__insta {
+        display: none;
+    }
+
+    .header__bottom {
+        padding-top: 0px;
+        padding-left: 0px;
+        padding-bottom: 10px;        
+
+        background-position: center;
+        background-size: 100%;
+    }
+
+    .nav {
+        justify-content: center;
+    }
+
+    .nav__logo-link img {
+        width: 60px;
+        height: 36px;
+    }
+
+    .logo {
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    .header__title {        
+        font-size: 25px;
+        line-height: 25px;
+    }
+
+    .header__text {
+        font-size: 20px;
+        line-height: 23px;
+    }
+
+    .btn {
+        padding: 9px 15px;
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .header__content {
+        text-align: center;
+    }
+
+    .main__img {
+        display: none;
+    }
+
+    .about {
+        padding-top: 20px;
+    }    
+
+    .about__heading {
+        font-size: 20px;
+        line-height: 23px;
+    }
+
+    .about__cards {
+        row-gap: 30px;
+        padding-bottom: 124px;
+    }
+
+    .card {
+        min-width: 264px;
+    }
+
+    .card__dsc h2 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .review__card {
+        min-width: unset;
+        width: 267px;
+        height: 210px;        
+    }
+
+    .review__img {        
+        top: -40%;
+        left: 22%;        
+    }
+
+    .review__text {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .footer__row {
+        flex-direction: column;
+        row-gap: 14px;
+        align-items: center;
+        margin-top: 0px;
+        padding: 42px 0px;
+    }
+
+    .footer__col:nth-child(2) {
+        order: -1;
+    }
+
+    .footer__col {
+        text-align: center;
+    }
+
+    .footer__text {
+        width: 224px;
+    }
+
+}
